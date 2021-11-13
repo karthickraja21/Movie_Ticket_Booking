@@ -1,0 +1,75 @@
+   @import url(http://fonts.googleapis.com/css?family=Raleway);
+   body {
+       background-color: black;
+       background-image: url("img/movieseat.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-blend-mode: difference;
+       position: fixed;
+   }
+   
+   h2 {
+       color: rgb(0, 0, 0);
+       padding: 20px 35px;
+       margin: auto;
+       text-align: center;
+       border-radius: 10px 10px 0 0;
+       font-size: 50px;
+       font-family: 'Dongle', sans-serif;
+   }
+   
+   div.container {
+       width: 900px;
+       height: 610px;
+       margin: 65px 450px;
+   }
+   
+   div.main {
+       width: 300px;
+       padding: 10px 50px 25px;
+       border-radius: 0px;
+       font-family: raleway;
+       float: left;
+       margin-top: 50px;
+   }
+   
+   input[type=text],
+   input[type=password] {
+       width: 100%;
+       height: 40px;
+       padding: 5px;
+       margin-bottom: 25px;
+       margin-top: 5px;
+       border: 2px solid #ccc;
+       color: #4f4f4f;
+       font-size: 16px;
+       border-radius: 5px;
+   }
+   
+   label {
+       color: rgb(0, 0, 0);
+       font-size: 18px;
+       font-family: 'Roboto', sans-serif;
+       font-weight: bold;
+   }
+   
+   .valid {
+       color: green;
+   }
+   
+   input[type=button] {
+       font-size: 16px;
+       background: linear-gradient(#5eabf3 5%, #a7d3f7 100%);
+       border: 1px solid #6ba1f3;
+       color: #2b2b2b;
+       font-weight: bold;
+       cursor: pointer;
+       width: 100%;
+       border-radius: 5px;
+       padding: 10px 0;
+       outline: none;
+   }
+   
+   input[type=button]:hover {
+       background: linear-gradient(#b1e2f5 5%, #437577 100%);
+   }
